@@ -6,6 +6,6 @@ module workshop_javafx_jdbc {
 	
 //	exports gui;    
 
-    opens gui to javafx.fxml;
+//  opens gui to javafx.fxml;
 	opens application to javafx.graphics, javafx.controls, javafx.fxml;
 }
