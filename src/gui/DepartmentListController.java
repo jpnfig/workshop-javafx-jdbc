@@ -37,7 +37,8 @@ public class DepartmentListController implements Initializable {
 		System.out.println("onBtNewAction");
 	}
 	
-	public void setDepartmentService(@SuppressWarnings("exports") DepartmentService service) {
+	@SuppressWarnings("exports")
+	public void setDepartmentService(DepartmentService service) {
 		this.service = service;
 	}
 	
